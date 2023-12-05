@@ -5,7 +5,7 @@ namespace ApplicationManager.Data.Model
 {
     public class Appointment
     {
-        [Key] // this is the primary key of the table
+        [Key] // this is the primary key of the table( we can fide data using this easyly)
         public int Id { get; set; }
 
         [MaxLength(150), Column(TypeName = "nvarchar(150)")]  // define the column 
